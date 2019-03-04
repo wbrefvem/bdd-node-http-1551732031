@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.75.240.151:5000/wbrefvem/bdd-node-http-1551732031
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: bdd-node-http-1551732031
